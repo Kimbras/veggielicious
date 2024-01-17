@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', Arial, Helvetica, sans-serif;
+    }
+
+header{
+    background-color: #F6C6D7;
+    width: 100%;
+    padding: 45px 100px;   
+    }
+
+ul{
+    display: flex;
+    justify-content:center;
+    z-index: 100;
+    list-style: none;
+    }
+
+a:hover{
+    text-decoration: underline;
+    color: #3FA6F2;
+    }
+
+header ul li a{
+    font-size: 1.7em;
+    color: #DE1264;
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    }
+
+.logo{
+    width: 12em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+.homefoto {
+    width: 40rem;
+}
+
+h2{
+   font-family: 'Permanent Marker', Arial, Helvetica;    
+   margin: 1em;
+   text-align: center;
+   font-size: 1.7em;
+}
+
+.donkerroze{
+    color:#DE1264;
+}
+
+.lichtroze{
+    color:#F194A9;
+}
+p{
+margin: 2em 4em 2em 4em; 
+font-size: 1.2em;
+}
+
+footer{
+background-color: #DE1264;
+padding: 20px 100px;
+}
+
+.socials{
+    width: 5em;
+    align-items: center; 
+    margin-left: 2em;  
+}

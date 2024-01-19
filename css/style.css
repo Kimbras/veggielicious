@@ -39,27 +39,22 @@ header ul li a{
     margin-bottom: 1em;
 }
 
-.homefoto {
-    width: 25rem;
+
+h1.home {
+    background-size: cover;
+    padding: 1.8em;
+    background-image:url(../links/homefoto.jpg);
+}
+.groter{
+    font-size: 1.5em;
+    display: block;
+    font-family: 'Permanent Marker', Arial, Helvetica;
 }
 
-h1{
+h1, h1 span{
     font-family: 'Permanent Marker', Arial, Helvetica;
     text-align: center;
-    font-size: 2em;
-    margin-top: -2.5em;
     color: #fff;
-}
-
-h3{
-    font-family: 'Permanent Marker', Arial, Helvetica;
-    font-size: 3.5em;
-    text-align: center;
-    font-size: 4em;
-    margin-bottom: 1em;
-    margin-top: -3.4em;
-    color: #fff;
-
 }
 
 h2{
@@ -77,42 +72,30 @@ h2{
     color:#F194A9;
 }
 
-.meerruimte{
-    margin-top: 5em;
-}
-
 p{
 margin: 1em 2.2em 1em 2.2em; 
 font-size: 1em;
 }
 
-footer{
-background-color: #DE1264;
-padding: 30px;
-}
-
-.socials{
-    width: 5em; 
-}
-
 .fotolinks{
     width: 10em;
-    margin-top: -22em;
     margin-left: 1em;
 }
 
 .tweecolommen{
     display: flex;
     align-items: center;
+    padding: 1em;
+    background-image:url(../links/patroonlichtroze.svg);
     }
 
 .content{
-    margin-top: -22em;
     color: #fff;
     background-size: 1px 1px;
     background-color: #F6C6D7;
     margin-left: 1em;
     margin-right: 1em;
+    padding-right: 1em;
 }
 
 .content p{
@@ -131,7 +114,7 @@ padding: 30px;
     background-color: #DE1264;
     border-radius: 1.2em;
     box-shadow: 0 0.4em 1em -0.5em #000;
-    margin-left: 1em;
+    margin-left: 1.7em;
     margin-right: 1em;
     }
 
@@ -140,3 +123,13 @@ padding: 30px;
     text-decoration: none;
     box-shadow: 0 0.7em 1em -0.5em #000;
     }
+
+    footer{
+        background-color: #DE1264;
+        padding: 30px;
+        }
+        
+ .socials{
+        width: 5em;
+        margin-left: 1em;    
+        }

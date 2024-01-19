@@ -8,7 +8,8 @@
 header{
     background-color: #F6C6D7;
     width: 100%;
-    padding: 45px 100px;   
+    padding: 4em; 
+    padding-bottom: 1em;  
     }
 
 ul{
@@ -20,34 +21,52 @@ ul{
 
 a:hover{
     text-decoration: underline;
-    color: #3FA6F2;
     }
 
 header ul li a{
-    font-size: 1.7em;
+    font-size: 1.3em;
     color: #DE1264;
-    margin-left: 30px;
     text-decoration: none;
     font-weight: bolder;
     }
 
 .logo{
-    width: 12em;
+    margin-top: -2em;
+    width: 7em;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2em;
+    margin-right: 0.9em;
+    margin-bottom: 1em;
 }
 
 .homefoto {
-    width: 40rem;
+    width: 25rem;
+}
+
+h1{
+    font-family: 'Permanent Marker', Arial, Helvetica;
+    text-align: center;
+    font-size: 2em;
+    margin-top: -2.5em;
+    color: #fff;
+}
+
+h3{
+    font-family: 'Permanent Marker', Arial, Helvetica;
+    font-size: 3.5em;
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 1em;
+    margin-top: -3.4em;
+    color: #fff;
+
 }
 
 h2{
    font-family: 'Permanent Marker', Arial, Helvetica;    
-   margin: 1em;
+   margin: 0.5em;
    text-align: center;
-   font-size: 1.7em;
+   font-size: 1.5em;
 }
 
 .donkerroze{
@@ -57,18 +76,67 @@ h2{
 .lichtroze{
     color:#F194A9;
 }
+
+.meerruimte{
+    margin-top: 5em;
+}
+
 p{
-margin: 2em 4em 2em 4em; 
-font-size: 1.2em;
+margin: 1em 2.2em 1em 2.2em; 
+font-size: 1em;
 }
 
 footer{
 background-color: #DE1264;
-padding: 20px 100px;
+padding: 30px;
 }
 
 .socials{
-    width: 5em;
-    align-items: center; 
-    margin-left: 2em;  
+    width: 5em; 
 }
+
+.fotolinks{
+    width: 10em;
+    margin-top: -22em;
+    margin-left: 1em;
+}
+
+.tweecolommen{
+    display: flex;
+    align-items: center;
+    }
+
+.content{
+    margin-top: -22em;
+    color: #fff;
+    background-size: 1px 1px;
+    background-color: #F6C6D7;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.content p{
+    font-size: 1.3em;
+    margin: 1.5em 0em 1em 1em;
+}
+
+.button{
+    padding: 12px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    color:#fff;
+    background-color: #DE1264;
+    border-radius: 1.2em;
+    box-shadow: 0 0.4em 1em -0.5em #000;
+    margin-left: 1em;
+    margin-right: 1em;
+    }
+
+  .button:hover {
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0.7em 1em -0.5em #000;
+    }

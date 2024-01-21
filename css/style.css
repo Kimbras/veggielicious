@@ -39,12 +39,16 @@ header ul li a{
     margin-bottom: 1em;
 }
 
-
 h1.home {
     background-size: cover;
     padding: 1.8em;
     background-image:url(../links/homefoto.jpg);
 }
+
+h1 {
+    font-size: 1.7em;
+}
+
 .groter{
     font-size: 1.5em;
     display: block;
@@ -61,7 +65,7 @@ h2{
    font-family: 'Permanent Marker', Arial, Helvetica;    
    margin: 0.5em;
    text-align: center;
-   font-size: 1.5em;
+   font-size: 1.3em;
 }
 
 .donkerroze{
@@ -88,6 +92,23 @@ font-size: 1em;
     padding: 1em;
     background-image:url(../links/patroonlichtroze.svg);
     }
+
+.fotosnaast{
+    display: flex;
+    justify-content: center;
+}
+
+.fotosnaast img{
+    width: 9em;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+.achtergrondinfo{
+    background-image:url(../links/patroondonkerroze.svg);
+    background-size: cover;
+    padding: 1.5em;    
+}
 
 .content{
     color: #fff;
@@ -130,6 +151,39 @@ font-size: 1em;
         }
         
  .socials{
-        width: 5em;
-        margin-left: 1em;    
+        width: 4em;
+        margin-left: 1.7em;    
         }
+
+       
+.driecolommen img.nav{
+    width: 2.6em;
+    display: block;
+}
+
+.driecolommen img{
+    width: 7em;
+}
+
+.driecolommen{
+    margin-left: 0.5em;
+    margin-right: 0.3em;
+}
+
+.locatie{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.amsterdam a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #000;
+}
+
+.amsterdam{
+    margin: 0.2em 0em 0em 0.6em; 
+    padding-bottom: 1.5em;
+}

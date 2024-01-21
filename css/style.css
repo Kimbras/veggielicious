@@ -8,15 +8,15 @@
 header{
     background-color: #F6C6D7;
     width: 100%;
-    padding: 4em; 
-    padding-bottom: 1em;  
+    padding-bottom: 1em; 
+    padding-top: 2em; 
     }
 
 ul{
     display: flex;
-    justify-content:center;
-    z-index: 100;
     list-style: none;
+    justify-content: center;
+    align-items: center;
     }
 
 a:hover{
@@ -31,12 +31,8 @@ header ul li a{
     }
 
 .logo{
-    margin-top: -2em;
-    width: 7em;
-    display: block;
-    margin-left: auto;
-    margin-right: 0.9em;
-    margin-bottom: 1em;
+    padding-top: 0em;
+    width: 5em; 
 }
 
 h1.home {
@@ -91,7 +87,7 @@ font-size: 1em;
     align-items: center;
     padding: 1em;
     background-image:url(../links/patroonlichtroze.svg);
-    }
+}
 
 .fotosnaast{
     display: flex;
@@ -116,12 +112,11 @@ font-size: 1em;
     background-color: #F6C6D7;
     margin-left: 1em;
     margin-right: 1em;
-    padding-right: 1em;
 }
 
 .content p{
     font-size: 1.3em;
-    margin: 1.5em 0em 1em 1em;
+    margin: 1.5em 0em 2em 1em;
 }
 
 .button{
@@ -136,24 +131,24 @@ font-size: 1em;
     border-radius: 1.2em;
     box-shadow: 0 0.4em 1em -0.5em #000;
     margin-left: 1.7em;
-    margin-right: 1em;
-    }
+    margin-right: 1.7em;
+}
 
-  .button:hover {
+.button:hover {
     color: #fff;
     text-decoration: none;
     box-shadow: 0 0.7em 1em -0.5em #000;
-    }
+}
 
-    footer{
-        background-color: #DE1264;
-        padding: 30px;
-        }
+footer{
+    background-color: #DE1264;
+    padding: 30px;
+}
         
  .socials{
-        width: 4em;
-        margin-left: 1.7em;    
-        }
+    width: 4em;
+    margin-left: 1.7em;    
+}
 
        
 .driecolommen img.nav{
@@ -172,9 +167,7 @@ font-size: 1em;
 
 .locatie{
     display: flex;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 
 .amsterdam a{

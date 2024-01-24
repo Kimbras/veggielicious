@@ -71,6 +71,13 @@ h2{
     margin: 0;
     }
 
+.vollebreedinfo{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 1em;
+    margin: 0;
+    }
+
 .tweecolommen{
     align-items: center;
     background-image:url(../links/patroonlichtroze.svg);
@@ -90,8 +97,9 @@ h2{
     }
     
 .content p{
-    font-size: 1.3em;
+    font-size: 1.3em; 
     margin: 1.5em 0em 2em 1em;
+    padding-right: 1em;
     }
 
 .donkerroze{
@@ -159,22 +167,30 @@ p{
     margin-right: 1.7em;
     }
 
-.button:hover {
-    color: #fff;
-    text-decoration: none;
-    box-shadow: 0 0.7em 1em -0.5em #000;
+.button{
+    animation-duration: 2.5s;
+    animation-name: bewegen;
+    position: relative;
+    animation-iteration-count: infinite; 
+    
+    }
+    
+@keyframes bewegen{
+    0% {transform: scale(1);}
+    25% {transform: scale(1.1);}
+    50% {transform: scale(1);}
+    75% {transform: scale(1.1);}
+    100% {transform: scale(1);}
     }
 
 footer{
     background-color: #DE1264;
-    padding: 20px;
-    display: flex;
-    gap: 2em;
-    justify-content: center;
+    list-style: none;
     }
         
  .socials{
-    width: 4em;   
+    width: 4em;
+    margin: 1em;  
     }
       
 .driecolommen img.nav{
@@ -183,30 +199,42 @@ footer{
     }
 
 .driecolommen img{
-    width: 7em;
+    width: 6.5em;
     }
 
 .driecolommen{
-    margin-left: 0.5em;
-    margin-right: 0.3em;
+    margin-right: 0.5em;
+    margin-left: 0.3em;
     }
 
 .locatie{
-    display: flex;
-    align-items: center;   
+    align-items: center;  
     }
 
 .amsterdam a{
     text-decoration: none;
     font-size: 1em;
     color: #000;
+    text-decoration: underline;
     }
 
 .amsterdam{
     margin: 0.2em 0em 0em 0.6em; 
     padding-bottom: 1.5em;
     text-align: left;
+    animation-duration: 3s;
+    animation-name: bewegen1;
+    position: relative;
+    animation-iteration-count: infinite;
     }
+
+@keyframes bewegen1{
+    0% {transform: scale(1);}
+    25% {transform: scale(1.07);}
+    50% {transform: scale(1);}
+    75% {transform: scale(1.07);}
+    100% {transform: scale(1);}
+    }   
 
 .ervaringkolom{
     background-color: #DE1264;
